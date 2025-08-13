@@ -1,0 +1,147 @@
+{
+  "source": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+  "scrapedAt": "2025-08-13T09:04:20.574Z",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Aadhaar & OTP",
+      "fields": [
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtadharno",
+          "name": "AadhaarNumber",
+          "type": "text",
+          "label": "Your Aadhaar No",
+          "placeholder": "Enter Aadhaar Number",
+          "required": true,
+          "pattern": "^[0-9]{12}$",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtownername",
+          "name": "AadhaarName",
+          "type": "text",
+          "label": "Name as per Aadhaar",
+          "placeholder": "Enter name as per Aadhaar",
+          "required": true,
+          "pattern": "",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_chkDecarationA",
+          "name": "Declaration",
+          "type": "checkbox",
+          "label": "I hereby give my consent for Aadhaar verification",
+          "placeholder": "",
+          "required": true,
+          "pattern": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "PAN Validation",
+      "fields": [
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtPan",
+          "name": "PAN",
+          "type": "text",
+          "label": "PAN Number",
+          "placeholder": "Enter your PAN",
+          "required": true,
+          "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]$",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtBusinessName",
+          "name": "BusinessName",
+          "type": "text",
+          "label": "Name of Enterprise",
+          "placeholder": "Enter business name",
+          "required": true,
+          "pattern": "",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_ddlOrganisationType",
+          "name": "OrganisationType",
+          "type": "select",
+          "label": "Type of Organisation",
+          "placeholder": "",
+          "required": true,
+          "pattern": "",
+          "options": [
+            {
+              "value": "",
+              "label": "Select Type"
+            },
+            {
+              "value": "Proprietorship",
+              "label": "Proprietorship"
+            },
+            {
+              "value": "Partnership",
+              "label": "Partnership"
+            },
+            {
+              "value": "PrivateLimited",
+              "label": "Private Limited Company"
+            },
+            {
+              "value": "LLP",
+              "label": "Limited Liability Partnership"
+            },
+            {
+              "value": "CooperativeSociety",
+              "label": "Co-operative Society"
+            },
+            {
+              "value": "Trust",
+              "label": "Trust"
+            }
+          ]
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtEmail",
+          "name": "Email",
+          "type": "text",
+          "label": "Email ID",
+          "placeholder": "Enter your email",
+          "required": true,
+          "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtMobile",
+          "name": "Mobile",
+          "type": "text",
+          "label": "Mobile Number",
+          "placeholder": "Enter your mobile number",
+          "required": true,
+          "pattern": "^[6-9][0-9]{9}$",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtAddress",
+          "name": "Address",
+          "type": "text",
+          "label": "Office Address",
+          "placeholder": "Enter your office address",
+          "required": true,
+          "pattern": "",
+          "options": []
+        },
+        {
+          "id": "ctl00_ContentPlaceHolder1_txtPinCode",
+          "name": "PinCode",
+          "type": "text",
+          "label": "Pincode",
+          "placeholder": "Enter PIN code",
+          "required": true,
+          "pattern": "^[0-9]{6}$",
+          "options": []
+        }
+      ]
+    }
+  ]
+}
